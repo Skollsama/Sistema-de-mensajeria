@@ -1,0 +1,107 @@
+body {
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+}
+
+/* estilo de chat */
+.chat {
+    display: flex;
+    flex-direction: column;
+    width: 30.5%;
+    height: 100vh;
+}
+/* estilo de perfil */
+.perfil img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.perfil {
+    border-radius: 0px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    display: flex;
+    width: 512px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.estado h2, p {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.iconos {
+    display: flex;
+    font-size: 30px;
+}
+
+/* estilo de nuevo chat */
+
+.chat-nuevo {
+    border-radius: 0px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    display: flex;
+    width: 512px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat--color {
+    font-size: 22px;
+    
+}
+
+/* estilo usuarios */
+
+.chat-users {
+    border-radius: 0px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+
+
+}
+
+.chat-users img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 7%;
+}
+
+.user-1, .user-2, .user-3, .user-4, .user-5, .user-6, .user-7 {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+
+}
+
+.nombre-u h2, p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+/* estilo de mensajes */
+
+.mensajes {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
